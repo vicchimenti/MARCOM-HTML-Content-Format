@@ -134,79 +134,89 @@
     </tbody>
 </table>
 
-<h3>Function</h3>
-<p>The function code consists of one digit. It identifies how the funds are used at the university.</p>
-<table>
+<table class="tableWithBorders">
+    <caption>
+        <h3>Function</h3>
+        <p>The function code consists of one digit. It identifies how the funds are used at the university.</p>
+    </caption>
+    <thead>
+        <tr>
+            <th>Code</th><th>Description</th><th>Summary</th>
+        </tr>
+    </thead>
     <tbody>
         <tr>
-        <td><strong>Code</strong></td>
-        <td><strong>Description</strong></td>
-        <td><strong>Summary</strong></td>
+            <th>0</th>
+            <td>General</td>
+            <td>This function is used for assets, liabilities, net assets, revenues, and transfers - not expenses.</td>
         </tr>
         <tr>
-        <td>0</td>
-        <td>General</td>
-        <td>This function is used for assets, liabilities, net assets, revenues, and transfers - not expenses.</td>
+            <th>1</th>
+            <td>Instruction</td>
+            <td>Expenses that are direct to the institution&rsquo;s instructional program, including certificate programs and continuing education. This function also includes research.</td>
         </tr>
         <tr>
-        <td>1</td>
-        <td>Instruction</td>
-        <td>Expenses that are direct to the institution&rsquo;s instructional program, including certificate programs and continuing education. This function also includes research.</td>
+            <th>2</th>
+            <td>Academic Support</td>
+            <td>Expenses that support the institution's instructional program, such as libraries and academic administration.</td>
         </tr>
         <tr>
-        <td>2</td>
-        <td>Academic Support</td>
-        <td>Expenses that support the institution&rsquo;s instructional program, such as libraries and academic administration.</td>
+            <th>3</th>
+            <td>Student Services</td>
+            <td>Expenses that facilitate student participation in the university&rsquo;s instructional program, such as admissions and enrollment. Also, this function includes expenses whose purpose is to contribute to the student&rsquo;s well-being and to his or her intellectual, cultural, and social development outside the context of the formal instructional program.</td>
         </tr>
         <tr>
-        <td>3</td>
-        <td>Student Services</td>
-        <td>Expenses that facilitate student participation in the university&rsquo;s instructional program, such as admissions and enrollment. Also, this function includes expenses whose purpose is to contribute to the student&rsquo;s well-being and to his or her intellectual, cultural, and social development outside the context of the formal instructional program.</td>
+            <th>4</th>
+            <td>Institutional Support</td>
+            <td>Expenses for central executive-level activities concerned with management and long-range planning of the entire institution; fiscal operations; information technology services; human resources; and activities concerned with fundraising, alumni, and community relations.</td>
         </tr>
         <tr>
-        <td>4</td>
-        <td>Institutional Support</td>
-        <td>Expenses for central executive-level activities concerned with management and long-range planning of the entire institution; fiscal operations; information technology services; human resources; and activities concerned with fundraising, alumni, and community relations.</td>
+            <th>5</th>
+            <td>Auxiliary Services</td>
+            <td>Expenses for activities that furnish goods or services to students, faculty, or staff, in exchange for fees that contribute directly to the support of those activities, such as residence halls.</td>
         </tr>
         <tr>
-        <td>5</td>
-        <td>Auxiliary Services</td>
-        <td>Expenses for activities that furnish goods or services to students, faculty, or staff, in exchange for fees that contribute directly to the support of those activities, such as residence halls.</td>
+            <th>6</th>
+            <td>Operation & Maint of Plant</td>
+            <td>Expenses that support the operation and maintenance of the institution&rsquo;s physical plant, such as buildings, grounds, and equipment.</td>
         </tr>
         <tr>
-        <td>6</td>
-        <td>Operation &amp; Maint of Plant</td>
-        <td>Expenses that support the operation and maintenance of the institution&rsquo;s physical plant, such as buildings, grounds, and equipment.</td>
-        </tr>
-        <tr>
-        <td>7</td>
-        <td>Student Aid</td>
-        <td>Expenses for scholarships, grants, fellowships, and other aid to facilitate student participation in the institution&rsquo;s academic program.</td>
+            <th>7</th>
+            <td>Student Aid</td>
+            <td>Expenses for scholarships, grants, fellowships, and other aid to facilitate student participation in the institution's academic program.</td>
         </tr>
     </tbody>
+    <tfoot>
+        <tr>
+            <th colspan="3">If you determine that, based on these descriptions, you'd like to adjust how you are capturing expenses, please contact the controller's office before changing how you record expenses.</th>
+        </tr>
+    </tfoot>
 </table>
-<p>If you determine that, based on these descriptions, you'd like to adjust how you are capturing expenses, please contact the controller's office before changing how you record expenses.</p>
 
-<h3>Activity</h3>
-<p>The activity code consists of six digits. An activity rolls up as a part of a reporting unit. As a result, an activity could refer to reporting units such as: Office of the President, Mailing Services, Controller's Office, Bookstore, School of Education, Mechanical Engineering Department, Provost, Human Resources, Math Department, Philosophy Club, Minority Student Affairs, etc.</p>
-<p>Below is a sample list of these organizations:</p>
-<table>
+<table class="tableWithBorders">
+    <caption>
+        <h3>Activity</h3>
+        <p>The activity code consists of six digits. An activity rolls up as a part of a reporting unit. As a result, an activity could refer to reporting units such as: Office of the President, Mailing Services, Controller's Office, Bookstore, School of Education, Mechanical Engineering Department, Provost, Human Resources, Math Department, Philosophy Club, Minority Student Affairs, etc.</p>
+        <p>Below is a sample list of these organizations:</p>
+    </caption>
+    <thead>
+        <tr>
+            <th>Code</th>
+            <th>Description</th>
+        </tr>
+    </thead>
     <tbody>
         <tr>
-        <td><strong>Code</strong></td>
-        <td><strong>Description</strong></td>
+            <th>000000</th>
+            <td>General</td>
         </tr>
         <tr>
-        <td>000000</td>
-        <td>General</td>
+            <th>021010</th>
+            <td>Office of the President</td>
         </tr>
         <tr>
-        <td>021010</td>
-        <td>Office of the President</td>
-        </tr>
-        <tr>
-        <td>181010</td>
-        <td>Facilities Administration</td>
+            <th>181010</th>
+            <td>Facilities Administration</td>
         </tr>
     </tbody>
 </table>
@@ -215,10 +225,11 @@
 <p>The object code consists of seven digits which identify&nbsp;what money was spent on. The object code indicates how expenses from your reporting unit, represented by an activity code, were used. This includes items such as salary, travel expense, office supplies, printing expense, rent, telephone expense, equipment, etc. Revenues received can be classified as gift revenue, rental revenue, revenue from the&nbsp;sale of books, tuition revenue, lab fees income, etc. An object code could be used by any reporting unit.&nbsp; In practice, what makes sense for a reporting unit will vary.&nbsp;</p>
 <p>The most commonly used object codes can be found in the&nbsp;<a class="t4-tag-content-item mceNonEditable" href="https://cms.seattleu.edu/terminalfour/SiteManager?ctfn=download&amp;fnno=60&amp;ceid=e3b5ab26333a255d945da3e57ad2bc57e6541337" data-t4-instance-id="149" data-t4-media-id="194885" data-t4-markup-for="194885" data-t4-media-attributes="{}" data-t4-media-formatter="application/*" data-t4-media-language="en" data-t4-type="media">GL Chart of Accounts Guide</a> on the second tab.</p>
 
-<h2><strong>Examples of Journal Entries</strong></h2>
-<h3><strong>Journal Entry Example 1: Expense Classification Correction</strong></h3>
+<h2>Examples of Journal Entries</h2>
+
+<h3>Journal Entry Example 1: Expense Classification Correction</h3>
 <p>Donor Relations accidentally attributed expenses related to lighting to the wrong object code.&nbsp; They had selected 5300525 for Prof Services&ndash;Other.&nbsp; Recognizing this error, they corrected the expense to be 5700420 for Equipment- Lease/Rental.&nbsp; To do this, they completed a Journal Entry Request Form for $180.02.&nbsp; The reason provided was &ldquo;Expense classification corrections&rdquo;. The following information illustrates some of the key information to capture:</p>
-<table>
+<table class="tableWithBorders">
     <tbody>
         <tr>
         <td style="text-align: center;" colspan="5"><strong>Debit:</strong></td>
