@@ -286,90 +286,102 @@
     </tbody>
 </table>
 
-<h3><strong>Journal Entry Example 2: Activity Classification Correction</strong></h3>
-<p>For the annual gala, a photographer was hired. This expense was accidentally attributed to the wrong reporting unit because of the activity code selected. The activity code selected was 266010 for Donor Relations. The activity code selected should have been 266020 for Gala. To correct this, they used a Journal Entry Request Form. The reason provided was, &ldquo;Reclassify photographer for Costco Breakfast from Donor Relations to Gala.&rdquo; The following information illustrates some of the key information in this journal entry example:</p>
-<table>
+<table class="tableWithBorders">
+    <caption>
+        <h3>Journal Entry Example 2: Activity Classification Correction</h3>
+        <p>For the annual gala, a photographer was hired. This expense was accidentally attributed to the wrong reporting unit because of the activity code selected. The activity code selected was 266010 for Donor Relations. The activity code selected should have been 266020 for Gala. To correct this, they used a Journal Entry Request Form. The reason provided was, "Reclassify photographer for Costco Breakfast from Donor Relations to Gala." The following information illustrates some of the key information in this journal entry example:</p>
+    </caption>
+    <thead>
+        <tr>
+            <th style="text-align:center" colspan="6">Debit:</th>
+        </tr>
+    </thead>
     <tbody>
         <tr>
-        <td style="text-align: center;" colspan="5"><strong>Debit:</strong></td>
+            <th></th><th>Fund</th><th>Location</th><th>Function</th><th>Activity</th><th>Object</th>
         </tr>
         <tr>
-        <td><strong>FUND</strong></td>
-        <td><strong>LOCATION</strong></td>
-        <td><strong>FUNCTION</strong></td>
-        <td><strong>ACTIVITY</strong></td>
-        <td><strong>OBJECT</strong></td>
+            <th>Code</th>
+            <td>11</td>
+            <td>0</td>
+            <td>4</td>
+            <td>26xxxx</td>
+            <td>5300525</td>
         </tr>
         <tr>
-        <td>11</td>
-        <td>0</td>
-        <td>4</td>
-        <td>26xxxx</td>
-        <td>5300525</td>
+            <th>description</th>
+            <td>Operating Non-Law</td>
+            <td>Seattle Location</td>
+            <td>Academic Support</td>
+            <td>GALA</td>
+            <td>Prof Srvs-Other</td>
+        </tr>
+    </tbody>
+    <thead>
+        <tr>
+            <th style="text-align:center" colspan="6">Credit:</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th></th><th>Fund</th><th>Location</th><th>Function</th><th>Activity</th><th>Object</th>
         </tr>
         <tr>
-        <td>Operating Non-Law</td>
-        <td>Seattle Location</td>
-        <td>Academic Support</td>
-        <td>GALA</td>
-        <td>Prof Srvs-Other</td>
+            <th>Code</th>
+            <td>11</td>
+            <td>0</td>
+            <td>4</td>
+            <td>26xxxx</td>
+            <td>5300525</td>
         </tr>
         <tr>
-        <td style="text-align: center;" colspan="5"><strong>Credit:</strong></td>
-        </tr>
-        <tr>
-        <td><strong>FUND</strong></td>
-        <td><strong>LOCATION</strong></td>
-        <td><strong>FUNCTION</strong></td>
-        <td><strong>ACTIVITY</strong></td>
-        <td><strong>OBJECT</strong></td>
-        </tr>
-        <tr>
-        <td>11</td>
-        <td>0</td>
-        <td>4</td>
-        <td>26xxxx</td>
-        <td>5300525</td>
-        </tr>
-        <tr>
-        <td>Operating Non-Law</td>
-        <td>Seattle Location</td>
-        <td>Academic Support</td>
-        <td>Donor Relations</td>
-        <td>Prof Srvs-Other<strong>&nbsp;</strong></td>
+            <th>Description</th>
+            <td>Operating Non-Law</td>
+            <td>Seattle Location</td>
+            <td>Academic Support</td>
+            <td>Donor Relations</td>
+            <td>Prof Srvs-Other</td>
         </tr>
     </tbody>
 </table>
 
 <h2>Examples of Account Coding</h2>
-<h3>Account Coding Example 1: Purchase Requisition</h3>
-<p>A purchase requisition is a document expressing the need to purchase items. Creating a requisition will be handled in ProcureSU. Once a shopper submits a requisition, a requisitioner must approve and attribute the correct GL code to the item. For the hypothetical example below, Human Resources has selected an approved vendor from the ProcureSU catalog to place an online advertisement for a new position.&nbsp; When submitted through ProcureSU, the requisition will automatically be routed through the appropriate approvals and will generate a PO once complete. In this instance, the requisitioner will be responsible for entering the correct GL code:</p>
-<table>
+
+<table class="tableWithBorders">
+    <caption>
+        <h3>Account Coding Example 1: Purchase Requisition</h3>
+        <p>A purchase requisition is a document expressing the need to purchase items. Creating a requisition will be handled in ProcureSU. Once a shopper submits a requisition, a requisitioner must approve and attribute the correct GL code to the item. For the hypothetical example below, Human Resources has selected an approved vendor from the ProcureSU catalog to place an online advertisement for a new position. When submitted through ProcureSU, the requisition will automatically be routed through the appropriate approvals and will generate a PO once complete. In this instance, the requisitioner will be responsible for entering the correct GL code:</p>
+    </caption>
+    <thead>
+        <tr>
+            <th></th><th>Fund</th><th>Location</th><th>Function</th><th>Activity</th><th>Object</th>
+        </tr>
+    </thead>
     <tbody>
         <tr>
-        <td><strong>FUND</strong></td>
-        <td><strong>LOCATION</strong></td>
-        <td><strong>FUNCTION</strong></td>
-        <td><strong>ACTIVITY</strong></td>
-        <td><strong>OBJECT</strong></td>
+            <th>Code</th>
+            <td>11</td>
+            <td>0</td>
+            <td>4</td>
+            <td>22xxxx</td>
+            <td>5304020</td>
         </tr>
         <tr>
-        <td>11</td>
-        <td>0</td>
-        <td>4</td>
-        <td>22xxxx</td>
-        <td>5304020</td>
-        </tr>
-        <tr>
-        <td>Operating Non-Law</td>
-        <td>Seattle Location</td>
-        <td>Institutional Support</td>
-        <td>Office of Human Resources</td>
-        <td>Marketing-Online</td>
+            <th>Description</th>
+            <td>Operating Non-Law</td>
+            <td>Seattle Location</td>
+            <td>Institutional Support</td>
+            <td>Office of Human Resources</td>
+            <td>Marketing-Online</td>
         </tr>
     </tbody>
+    <tfoot>
+        <tr>
+            <th colspan="6">If you determine that, based on these descriptions, you'd like to adjust how you are capturing expenses, please contact the controller's office before changing how your record.</th>
+        </tr>
+    </tfoot>
 </table>
-<p>If you determine that, based on these descriptions, you'd like to adjust how you are capturing expenses, please contact the controller's office before changing how your record.</p>
+
 
 <h3>Account Coding Example 2: Reimbursement Form for Travel</h3>
 <p>A faculty member has been approved to travel to a relevant conference in San Francisco. For reimbursement after their trip, in ProcureSU, the user will select the Reimbursement form and fill in the necessary fields. The requisitioner will then enter the correct coding for the travel expenses. In this instance, the trip was funded by federal grants. The faculty member works in the Seattle location and the function selected for this trip was instruction because it was a research-related trip.&nbsp; The faculty member is a part of the College of Education and is seeking reimbursement for Airfare.&nbsp; The coding for this check request will be 21-0-1-46XXXX-5301005. &nbsp;The expense is charged to:</p>
