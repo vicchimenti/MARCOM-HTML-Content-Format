@@ -227,57 +227,61 @@
 
 <h2>Examples of Journal Entries</h2>
 
-<h3>Journal Entry Example 1: Expense Classification Correction</h3>
-<p>Donor Relations accidentally attributed expenses related to lighting to the wrong object code.&nbsp; They had selected 5300525 for Prof Services&ndash;Other.&nbsp; Recognizing this error, they corrected the expense to be 5700420 for Equipment- Lease/Rental.&nbsp; To do this, they completed a Journal Entry Request Form for $180.02.&nbsp; The reason provided was &ldquo;Expense classification corrections&rdquo;. The following information illustrates some of the key information to capture:</p>
 <table class="tableWithBorders">
+    <caption>
+        <h3>Journal Entry Example 1: Expense Classification Correction</h3>
+        <p>Donor Relations accidentally attributed expenses related to lighting to the wrong object code.&nbsp; They had selected 5300525 for Prof Services&ndash;Other.&nbsp; Recognizing this error, they corrected the expense to be 5700420 for Equipment- Lease/Rental.&nbsp; To do this, they completed a Journal Entry Request Form for $180.02. The reason provided was "Expense classification corrections". The following information illustrates some of the key information to capture:</p>
+    </caption>
+    <thead>
+        <tr>
+            <th style="text-align:center" colspan="5">Debit:</th>
+        </tr>
+        <tr>
+            <th></th><th>Fund</th><th>Location</th><th>Function</th><th>Activity</th><th>Object</th>
+        </tr>
+    </thead>
     <tbody>
         <tr>
-        <td style="text-align: center;" colspan="5"><strong>Debit:</strong></td>
+            <th>Code</th>
+            <td>11</td>
+            <td>0</td>
+            <td>4</td>
+            <td>26xxxx</td>
+            <td>5700420</td>
         </tr>
         <tr>
-        <td><strong>FUND</strong></td>
-        <td><strong>LOCATION</strong></td>
-        <td><strong>FUNCTION</strong></td>
-        <td><strong>ACTIVITY</strong></td>
-        <td><strong>OBJECT</strong></td>
+            <th>Description</th>
+            <td>Operating Non-Law</td>
+            <td>Seattle Location</td>
+            <td>Academic Support</td>
+            <td>Donor Relations</td>
+            <td>Equipment-Lease/Rental</td>
+        </tr>
+    </tbody>
+    <thead>
+        <tr>
+            <th style="text-align:center" colspan="5">Credit:</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th></th><th>Fund</th><th>Location</th><th>Function</th><th>Activity</th><th>Object</th>
         </tr>
         <tr>
-        <td>11</td>
-        <td>0</td>
-        <td>4</td>
-        <td>26xxxx</td>
-        <td>5700420</td>
+            <th>Code</th>
+            <td>11</td>
+            <td>0</td>
+            <td>4</td>
+            <td>26xxxx</td>
+            <td>500525</td>
         </tr>
         <tr>
-        <td>Operating Non-Law</td>
-        <td>Seattle Location</td>
-        <td>Academic Support</td>
-        <td>Donor Relations</td>
-        <td>Equipment-Lease/Rental</td>
-        </tr>
-        <tr>
-        <td style="text-align: center;" colspan="5"><strong>Credit:</strong></td>
-        </tr>
-        <tr>
-        <td><strong>FUND</strong></td>
-        <td><strong>LOCATION</strong></td>
-        <td><strong>FUNCTION</strong></td>
-        <td><strong>ACTIVITY</strong></td>
-        <td><strong>OBJECT</strong></td>
-        </tr>
-        <tr>
-        <td>11</td>
-        <td>0</td>
-        <td>4</td>
-        <td>26xxxx</td>
-        <td>500525</td>
-        </tr>
-        <tr>
-        <td>Operating Non-Law</td>
-        <td>Seattle Location</td>
-        <td>Academic Support</td>
-        <td>Donor Relations</td>
-        <td>Prof Srvs-Other</td>
+            <th>Description</th>
+            <td>Operating Non-Law</td>
+            <td>Seattle Location</td>
+            <td>Academic Support</td>
+            <td>Donor Relations</td>
+            <td>Prof Srvs-Other</td>
         </tr>
     </tbody>
 </table>
